@@ -4,14 +4,14 @@ class Person
     @name = name
   end
 
-  def person=(name)
-    @name = name
-  end
+  # def name=(name)
+  #   @name = name
+  # end
+  # 
+  # def name
+  #   @name
+  # end
 
-  def name
-    @name
-  end
-
-  # attr_accessor :person
+   attr_accessor :person
 
 end
